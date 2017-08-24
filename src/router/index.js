@@ -11,7 +11,6 @@ import Project from '../components/pages/Project'
 import Article from '../components/pages/Article'
 
 const router = new Router({
-  mode: 'history',
   routes: [
     {
       path: '/',
