@@ -21,7 +21,7 @@
 			</p>
 		</div>
 		<div class="clearfix"></div>
-		<div class="col100 alert"><strong>Importante!</strong> O site está incompleto, sem as informações detalhadas por projeto, e nem todos os projetos. Casa de ferreiro, espeto de pau :)<br>Mas o código fonte dele esta <a href="">aqui</a>, caso queira dar uma olhada. É um SPA feito em Vue.js, sem qualquer backend.</div>
+		<div class="col100 alert"><strong>Importante!</strong> O site está incompleto, sem as informações detalhadas por projeto, e nem todos os projetos. Casa de ferreiro, espeto de pau :)<br>Mas o código fonte dele esta <a href="https://github.com/educkf/portfolio" target="_blank">aqui</a>, caso queira dar uma olhada. É um SPA feito em Vue.js, sem qualquer backend.</div>
 	</header>
 </template>
 
@@ -66,7 +66,11 @@ header {
     border: 1px solid rgba(255, 0, 0, 0.26);
     color: rgba(218, 74, 74, 0.68);
     font-size: 13px;
-    line-height: 17px;
+    line-height: 17px; 
+
+	a {
+		color: rgba(218, 74, 74, 0.9);
+	}
 }
 
 .hide-on-project {
