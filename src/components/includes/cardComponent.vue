@@ -5,7 +5,7 @@
 			<img :src="'/static/project/'+item.id+'-1400.png'" class="preload" alt="">
 		</figure>
 		<div class="card-info" :style="'background: '+ item.color">
-			<p>{{item.type}}</p>
+			<p>{{item.context}}</p>
 			<h1 v-if="item.type == 'project'"><router-link :to="'/projeto/'+item.seoname">{{short_title}}</router-link></h1>
 			<h1 v-else="item.type == 'article'"><router-link :to="'/artigo/'+item.seoname">{{short_title}}</router-link></h1>
 			<h5>{{item.subtitle}}</h5>
@@ -54,16 +54,24 @@ export default {
 	article.card {
 		background: #eee;
 		position: relative;
-		height: 260px;
-		overflow: auto;
+		height: 270px;
+		overflow: hidden;
 		box-shadow: 0 2px 3px 0px #ccc;
 		margin-bottom: 20px;
+
+		@media screen and (max-width: 480px) {
+			width: 90%;
+			height: 200px;
+			max-width: inherit;
+			margin: 0 auto 20px;
+			display: block;
+		}
 
 		figure {
 			position: absolute;
 			left: 0;
 			top: 0;
-			height: 260px;
+			height: 270px;
 			width: 100%;
 			overflow: hidden;
 
@@ -103,15 +111,31 @@ export default {
 			}
 
 			p.description {
-				font-size: 16px;
+				font-size: 14px;
 				font-weight: 200;
-				line-height: 17px;
+				line-height: 16px;
 				opacity: 0.7;
 			}
 
 			p.url {
 				position: absolute;
 				bottom: 20px;
+			}
+
+			@media screen and (max-width: 480px) {
+				padding-left: 15px; 
+
+				h1 {
+					font-size: 18px;
+					line-height: 20px;
+				}
+				p.description {
+					display: none;
+				}
+				p.url {
+					font-size: 13px;
+					opacity: 0.5;
+				}
 			}
 		}
 

@@ -244,7 +244,52 @@ const store = new Vuex.Store({
             color: '#151515 ',
             excerpt: '',
             content: '<p>O artigo aborda o tema da brasilidade, com foco em marcas gráficas de eventos esportivos internacionais, sob o viés da análise semiótica e de estruturas modelizantes. Através do estudo de discursos de uma série de marcas gráficas selecionadas e dos projetos delas mesmas, propõe-se que a brasilidade é um conceito convencionado, baseado em um código estruturado a partir da confluência de um contexto político preciso e a idiossincrasias de alguns designers pioneiros, como Ruben Martins, Aloisio Magalhães e Emilie Chamie, tidos como designers autenticamente brasileiros. Tal hipótese parte do entendimento da brasilidade como um sistema cultural modelizado por camadas de significados que induziram a determinada maneira de evolução e leitura. Tal conceito da Semiótica da Cultura, de matriz Russa, aliado à análise de raiz peirceana da classe de signo denominada de Hipoícone, traçam-se alguns indícios de uma estrutura básica de como se constitui e funciona o entendimento do discurso de brasilidade.</p><br><br>'          
-        }
+        },
+        {
+            id: 15,
+            year: '2017',
+            title: 'Histórias do Design no Brasil III',
+            seoname: 'historias-do-design-no-brasil-3',
+            type: 'article',
+            context: 'livro',
+            subtitle: 'co-organizador de livro',
+            urllabel: 'annablume.com.br',
+            date: 'setembro de 2017',
+            url: 'http://www.annablume.com.br/loja/product_info.php?products_id=2202&osCsid=avlk61utksvo0kqht6704b9947',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p><em>Da apresentação do livro.</em><p>Não é um exagero dizer que estamos ainda “engatinhando” na construção da nossa história do design no Brasil. Exceto por importantes pesquisas pioneiras, a história do design brasileiro se inicia enquanto campo de pesquisa apenas nos anos 1990.Entre os marcos que contribuíram para sua consolidação como tal, estão aqueles que iniciaram a demarcação de um campo da pesquisa geral em design, como a criação da revista Estudos em Design em 1993, o 1º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design – P&D Design de 1994, e a aberturada primeira pós-graduação de design do Brasil, na PUC-Rio, também em 1994.</p><p>            Considerando que nosso primeiro curso de desenho industrial remonta a 1951 com o Instituto de Arte Contemporânea do MASP - o IAC, contamos menos da metade desse período nos preocupando com o registro e estudo da história dessa atividade profissional. Esse campo de pesquisa cresce quando consideramos como parte de nossa história não apenas os anos de institucionalização da prática como uma profissão, mas também o período anterior, quando esta prática se dividia entre outras diversas atividades profissionais diferentes. Sob este olhar, temos um espaçode tempo superior a uma centena de anos para serem investigados. Há um trabalho imenso por ser feito. É nesse contexto que nasce este terceiro volume da coleção</p><p>            Histórias do Design no Brasil. Seus textos derivam dos trabalhos finais escritos por estudantes da turma de 2016 da disciplina “História Social do Design no Brasil”, do Programa de Pós-Graduação da Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo. A disciplina dá enfoque ao desenvolvimento do design moderno no Brasilno século XX, com um olhar especial no período em que a atividade institucionaliza-se no país.</p><br><br>'
+        },
+        {
+            id: 16,
+            year: '2017',
+            title: 'O Currículo Mínimo de 1969',
+            seoname: 'o-curriculo-minimo-de-1969',
+            type: 'article',
+            context: 'livro',
+            subtitle: 'capítulo de livro',
+            urllabel: 'annablume.com.br',
+            date: 'setembro de 2017',
+            url: 'http://www.annablume.com.br/loja/product_info.php?products_id=2202&osCsid=avlk61utksvo0kqht6704b9947',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p><em>Abertura do capítulo.</em><p>Nos anos 1960 se inicia a institucionalização do campo profissional do desenhista industrial com a fundação da Associação Brasileira de Desenho Industrial, ABDI, em 1963, e a abertura das primeiras escolas superiores de desenho industrial. A primeira pretendia reunir e representar a categoria profissional, enquanto as de ensino pretendiam formar quadros de profissionais para o processo de industrialização da época.</p><p>No mesmo período, numa medida cujo intuito seria justamente providenciar profissionais qualificados para atuar no processo de desenvolvimento do país, é publicada em 1961 a primeira Lei de Diretrizes Base da Educação, a LDB. Entre outros pontos, a lei colocava que o Conselho Federal de Educação – CFE, teria o poder de fixar os currículos mínimos de cursos superiores, currículo esse que serviria de guia para que as escolas montassem suas grades de disciplinas.</p><p>Nosso trabalho busca preencher uma lacuna na historiografia sobre o ensino do design no Brasil desse período no que diz respeito ao cenário interno das escolas pioneiras, e sobre a relação desse cenário com o primeiro currículo mínimo de desenho industrial, fixado em 1969. Para isso, pesquisamos um evento ocorrido em 1964 e 1965, organizado pela ABDI, denominado I Seminário de Ensino de Desenho Industrial. O evento reuniu expoentes do campo profissional do design e promoveu o primeiro debate desse gênero entre instituições. A partir dele, elencamos as principais ideias que a classe formava para uma pedagogia do campo, e comparamos com a proposta curricular de matérias apresentada pelo Currículo Mínimo.</p><br><br>'
+        },
+        {
+            id: 17,
+            year: '2016',
+            title: 'Primeiras notas para um olhar fenomenológico sobre o Design:  fenomenologia do projetar e teoria da ação',
+            seoname: 'primeiras-notas-para-um-olhar-fenomenologico-sobre-o-design',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'revista trágica',
+            urllabel: 'tragica.org',
+            date: 'setembro de 2017',
+            url: 'http://www.tragica.org/volume-9-numero-3/',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>O trabalho procura introduzir uma epistemologia do design de cunho fenomenológico. Calcado especificamente nos textos e pensamentos de Edmund Husserl e sua fenomenologia, esclarecemos alguns conceitos usados no trabalho, especificamente de mundo de vividos, e de atitudes frente ao fenômeno. Com isso, conduzimos uma análise da ideia de projeto propondo uma ontologia fenomenológica ao projetar como uma atitude frente ao mundo, e que deriva diretamente da atitude natural, extrapolando suas  características  realistas.  Introduz  ainda  a  possibilidade de desmembramento da análise por via de uma teoria da ação, que auxiliaria entender parte das consequências de tal atitude projetual para a área do design.</p><br><br>'
+        },
     ]
   },
   mutations: {

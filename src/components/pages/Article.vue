@@ -1,43 +1,43 @@
 <template>
-  <article class="single article">
+    <article class="single article">
 
-    <div id="article-header">
-      
-      <div class="about" :style="'background: ' + project.color">
-        <div class="about-content">
-          <h1>{{project.title}}</h1>
+        <div id="article-header">
+        
+        <div class="about" :style="'background: ' + project.color">
+            <div class="about-content">
+                <h1>{{project.title}}</h1>
+            </div>
         </div>
-      </div>
-    </div>
+        </div>
 
 
-    <div class="container article-content" v-if="project.type == 'article'">
-      <p class="original-date">Texto originalmente publicado em {{project.date}} — {{project.urllabel}}</p>
-      <div v-html="project.content"></div>
-      <a :href="project.url" target="_blank" class="visite-article">Ler texto completo ({{project.urllabel}}) →</a>
-    </div>
+        <div class="container article-content" v-if="project.type == 'article'">
+            <p class="original-date">Texto originalmente publicado em {{project.date}} — {{project.urllabel}}</p>
+            <div v-html="project.content"></div>
+            <a :href="project.url" target="_blank" class="visite-article">Ler texto completo ({{project.urllabel}}) →</a>
+        </div>
 
-    <div class="clearfix"></div>
-    
-    <div class="container related" v-if="related.length > 0">
-      <h1>Veja também</h1>
-      <div class="row">
-        <card-component v-for="single in related" :id="single.id" :key="single.id"></card-component>
-      </div>
-    </div>
-    <br><br><br>
+        <div class="clearfix"></div>
+        
+        <div class="container related" v-if="related.length > 0">
+            <h1>Veja também</h1>
+            <div class="row">
+                <card-component v-for="single in related" :id="single.id" :key="single.id"></card-component>
+            </div>
+        </div>
+        <br><br><br>
 
-  </article>
+    </article>
 </template>
 
 <script>
 
-import cardComponent from '../includes/cardComponent'
+import CardComponent from '../includes/CardComponent'
 
 export default {
   name: 'article',
   components: {
-    cardComponent
+    CardComponent
   },
   data () {
     return {

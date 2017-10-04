@@ -56,12 +56,12 @@
 </template>
 
 <script>
-import cardComponent from '../includes/cardComponent'
+import CardComponent from '../includes/CardComponent'
 
 export default {
 	name: 'project',
 	components: {
-    	cardComponent
+    	CardComponent
   	},
   	data () {
     	return {

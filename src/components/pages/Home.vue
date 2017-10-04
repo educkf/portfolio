@@ -59,16 +59,22 @@ export default {
 
   .alert {
     background: rgba(255, 0, 0, 0.17);
-      padding: 15px;
-      margin: 0px 0 -30px -15px;
-      border-radius: 2px;
-      border: 1px solid rgba(255, 0, 0, 0.26);
-      color: rgba(218, 74, 74, 0.68);
-      font-size: 13px;
-      line-height: 17px; 
+    padding: 15px;
+    margin: 0px 0 -30px -15px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 0, 0, 0.26);
+    color: rgba(218, 74, 74, 0.68);
+    font-size: 13px;
+    line-height: 17px; 
 
     a {
       color: rgba(218, 74, 74, 0.9);
+    }
+
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      max-width: inherit;
+      margin: -30px 0;
     }
   }
 

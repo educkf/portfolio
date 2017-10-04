@@ -14,12 +14,12 @@
 
 <script>
 
-import cardComponent from './cardComponent'
+import CardComponent from './CardComponent'
 
 export default {
 	name: 'year-component',
 	components: {
-		cardComponent
+		CardComponent
 	},
 	props: [
 		'year',

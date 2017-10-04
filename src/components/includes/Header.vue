@@ -6,18 +6,18 @@
 		</div>	
 		<div class="col50 contatos">
 			<div class="col50 hide-on-project">
-				<p>contato@eduardocamillo.com.br</p>
+				<p>eduardo.ckf@gmail.com</p>
 			</div>
 			<div class="col50 hide-on-project">
 				<p>+55 11 99304 7673</p>
 			</div>
 			<div class="clearfix"></div>
 			<p class="hide-on-project">
-				<a href="">lattes/</a> 
-				<a href="">linkedin/</a> 
-				<a href="">facebook/</a> 
-				<a href="">research gate/</a> 
-				<a href="">academia.edu</a>
+				<a target="_blank" href="http://lattes.cnpq.br/7435205311019524">lattes/</a> 
+				<a target="_blank" href="https://www.linkedin.com/in/eduardockf/">linkedin/</a> 
+				<a target="_blank" href="https://www.facebook.com/eduardo.ckf">facebook/</a> 
+				<a target="_blank" href="https://www.researchgate.net/profile/Eduardo_Ferreira7">research gate/</a> 
+				<a target="_blank" href="https://usp-br.academia.edu/EduardoCamilloKFerreira">academia.edu</a>
 			</p>
 		</div>
 	</header>
@@ -32,6 +32,14 @@ export default {
 <style lang="scss" scoped>
 header {
 	padding: 45px 0 40px;
+
+	.col50 {
+		@media screen and (max-width: 480px) {
+			width: 100%;
+			max-width: inherit;
+			margin-bottom: 15px;
+		}
+	}
 
 	h1 {
 		margin-bottom: 40px;
