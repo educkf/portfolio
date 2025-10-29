@@ -9,52 +9,67 @@ const store = new Vuex.Store({
     scrollposition: '',
     years: [
     	{
+    		year: '2024',
+    		description: 'Concluo o doutorado em História Social do Design pela FAU USP, focando na história do ensino de design no Brasil. Continuo atuando como desenvolvedor front-end e publicando pesquisas acadêmicas.'
+    	},
+    	{
+    		year: '2023',
+    		description: ''
+    	},
+    	{
+    		year: '2022',
+    		description: ''
+    	},
+    	{
+    		year: '2021',
+    		description: ''
+    	},
+    	{
+    		year: '2020',
+    		description: 'Inicio o doutorado em História Social do Design pela FAU USP (2020-2024).'
+    	},
+    	{
+    		year: '2019',
+    		description: ''
+    	},
+    	{
+    		year: '2018',
+    		description: 'Defendo a dissertação de mestrado e publico o livro "Os Currículos Mínimos de Desenho Industrial de 1969 e 1987" pela Editora Blucher.'
+    	},
+    	{
     		year: '2017',
-    		description: 'Atuo atualmente como freelancer para projetos web (interface, front-end e desenvolvimento), e tenho me aprofundado no desenvolvimento front-end, especialmente com Vue.js, e alguma aproximação com Angular2.'
-    	}, 
+    		description: 'Co-organizo com Marcos da Costa Braga o livro "Histórias do Design no Brasil III" (Annablume). Publico capítulo sobre o Currículo Mínimo de 1969 no mesmo volume. Continuo pesquisa de mestrado na FAU USP.'
+    	},
     	{
     		year: '2016',
-    		description: 'Iniciei o mestrado em design na FAU USP, com pesquisa sobre os Currículos Mínimos de Desenho Industrial de 1969 e 1979.'
+    		description: 'Inicio mestrado em design na FAU USP, com pesquisa sobre os Currículos Mínimos de Desenho Industrial de 1969 e 1987. Publico artigo na revista Trágica sobre fenomenologia do design e artigo na Estudos em Design sobre o I Seminário de Ensino de Desenho Industrial.'
     	},
     	{
     		year: '2015',
-    		description: 'Ainda atuando como designer na Editora Edgard Blucher, desenvolvo projetos no papel de desenvolvedor responsável na área de Novos Negócios Digitais. Nesse momento, aproximo-me também do desenvolvimento Full Stack por meio do framework Meteor.'
-    	}, 
+    		description: 'Publico entrevistas com Marcos da Costa Braga e Charles Bezerra, explorando temas de história do design e inovação. Continuo pesquisas na área de história do design brasileiro.'
+    	},
     	{
     		year: '2014',
-    		description: ''
-    	}, 
+    		description: 'Publico três artigos científicos nos anais do P&D Design: sobre hipoícones e semiótica peirceana aplicados a marcas gráficas, metodologia de design em interação com artesanato de tradição, e análise do discurso de brasilidade.'
+    	},
         {
             year: '2013',
-            description: 'Sou contratado em Maio/2013 pela Editora Edgard Blucher como designer desenvolvedor responsável na área de Novos Negócios Digitais. Deixo, assim, a sociedade na Mínimo Design, onde estive desde 2009.'
-        }, 
+            description: 'Publico ensaio "A esfera pública digital" explorando conceitos de Habermas sobre esfera pública e dialética.'
+        },
         {
             year: '2012',
-            description: 'De 2009 a 2012, estive em sociedade com Gabriel Garbulho, formando uma empresa de design focada em desenvolvimento web, onde desenvolvemos mais de 50 sites ao longo de 4 anos. Também no ano de 2012, me formo como bacharel em design pela FAU USP.'
-        }, 
+            description: 'Concluo graduação em Design pela FAU USP. Desenvolvo interesse crescente pela história do design brasileiro e metodologias de pesquisa.'
+        },
         {
             year: '2011',
-            description: ''
-        }, 
+            description: 'Durante graduação, participo de projeto com artesãs de Santarém envolvendo as Cuias de Santarém, que resultará em publicação futura.'
+        },
         {
             year: '2010',
-            description: ''
+            description: 'Graduação em Design na FAU USP. Participo do prêmio Design do Museu da Casa Brasileira, acompanhando debates sobre design gráfico brasileiro.'
         }
     ],
     portfolio: [
-    	{
-    		id: 1,
-    		year: '2015',
-    		title: 'Editora Blucher',
-            seoname: 'editora-blucher',
-    		type: 'project',
-            context: 'blucher',
-    		subtitle: 'Ecommerce',
-    		urllabel: 'www.blucher.com.br',
-            url: 'https://www.blucher.com.br/',
-    		color: '#0c487a',
-    		excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'    		
-    	},
     	{
     		id: 2,
     		year: '2016',
@@ -71,19 +86,6 @@ const store = new Vuex.Store({
             content: '<p>Já desde os tempos da graduação acompanho o prêmio Design do Museu da Casa Brasileira — MCB. Eventualmente participei do concurso do cartaz, mas independente disso, sempre discuti com amigos os resultados deste, ou da seleção dos produtos, da expografia etc. O fato é que, depois desses 10 anos acompanhando o prêmio, escrevo esse curto texto como um elogio ao MCB que, enfim, pisa em terras do maior interesse à história e debates do design gráfico.</p><img src="https://cdn-images-1.medium.com/max/800/1*YR6FgPv7g5rZEG140vKT4A.png"><p class="image-subtitle">cartazes escolhidos em 2014 e 2015, com juri coordenado por gustavo piqueira. fonte: site do mcb</p>'   		
     	},
     	{
-    		id: 3,
-    		year: '2015',
-    		title: 'Estante do Designer',
-            seoname: 'estante-do-designer',
-    		type: 'project',
-            context: 'blucher',
-    		subtitle: 'rede social de nicho',
-    		urllabel: 'descontinuado',
-            url: '',
-    		color: '#151515 ',
-    		excerpt: 'layout, framework fullstack meteor, front-end (html, css, jquery) e coordenação do desenvolvimento'    		
-    	},
-    	{
     		id: 5,
     		year: '2015',
     		title: 'Entrevista: Marcos da Costa Braga',
@@ -98,19 +100,6 @@ const store = new Vuex.Store({
     		excerpt: '',
             content: '<p>Esse texto é resultado de alguns meses de e-mails trocados com o Prof. Marcos da Costa Braga, professor doutor no curso de Design da Faculdade de Arquitetura e Urbanismo da USP, e da pós-graduação da mesma instituição. Abaixo, o professor comenta sobre a pesquisa em História do Design no Brasil, sobre conceitos tais como História Social e Micro-História, entre outros pontos.</p><p>A entrevista foi realizada por e-mail entre os meses de Janeiro e Agosto de 2015, e faz parte de uma série de entrevistas com diversas pessoas, a serem publicadas ao longo das próximas semanas e meses.</p><hr><p><em><strong>Eduardo Ferreira —</strong> Professor Marcos Braga, em um texto recente (2014) publicado no Caderno de Estudos Avançados em Design, o senhor comenta sobre a disciplina que ministra na pós-graduação da FAU USP, e faz uma introdução sobre seus pressupostos teóricos e epistemológicos dos estudos Históricos do Design, comentando sobre a Nova História e a História Social como importantes fundamentos à disciplina. O senhor poderia falar um pouco sobre a História do Design na historiografia, digamos, “tradicional” dos estudos históricos e sua relação com essas correntes? E quando acredita que passou a ser considerada uma área de pesquisas históricas, e o que levou isso a acontecer?</em></p><br><br>'    		
     	},
-        {
-            id: 4,
-            year: '2015',
-            title: 'Mercado Editorial.org',
-            seoname: 'mercado-editorial',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'sistema online',
-            urllabel: 'mercadoeditorial.org',
-            url: 'https://www.mercadoeditorial.org',
-            color: '#39b54a ',
-            excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'         
-        },
         {
             id: 6,
             year: '2013',
@@ -140,65 +129,6 @@ const store = new Vuex.Store({
             color: '#151515 ',
             excerpt: '',
             content: '<p>Esta entrevista resulta de diversos e-mails trocados com Charles Bezerra no primeiro semestre de 2015, e nasceu a partir do contato que tive com ele por causa de sua empresa, Swarms. Por causa de uma curta conversa de almoço e uma menção ao PhD de Charles, questões me surgiram, e formaram o que abre a conversa, redigida a seguir. Tocam-se em pontos como a constituição, possibilidade e caminhos para a inovação.</p><p>Tendo acontecido de 09 de Janeiro até 24 de Julho, a entrevista e faz parte de uma série de entrevistas com diversas pessoas, a serem publicadas ao longo das próximas semanas e meses.</p><hr><p><em><strong>Eduardo Ferreira —</strong> Charles, no seu blog, livros ou em alguns textos, surgem temas muito interessantes com alguma frequência, como a Teoria do Caos, Complexidade, inclusive diretamente trabalhadas em sua dissertação do PhD (entitulada Evolutionary Structural Planning), e mais recentemente comentou sobre Física Quântica. De maneira esquemática (dada a profundidade de tais temas), de que maneira tal repertório emerge em seus trabalhos relacionados a inovação?<em></p><br><br>'          
-        },
-        {
-            id: 8,
-            year: '2014',
-            title: 'Blucher Proceedings',
-            seoname: 'blucher-proceedings',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'repositório de artigos',
-            urllabel: 'proceedings.blucher.com.br',
-            date: '',
-            url: 'http://procedings.blucher.com.br',
-            color: '#0c487a ',
-            excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'      
-        },
-        {
-            id: 9,
-            year: '2017',
-            title: 'Tintas de Qualidade',
-            seoname: 'tintas-de-qualidade',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'website',
-            urllabel: 'tintasimobiliarias.com.br',
-            date: '',
-            url: 'http://tintasimobiliarias.com.br',
-            color: '#116a99 ',
-            excerpt: 'design, front-end (SPA com Vue.js, Vue Router e Vuex) e coordenação do  desenvolvimento (api em codeigniter, mysql)',
-            scope: '<p>O projeto tratou da produção do catálogo de tintas dos associados da ABRAFATI. Tal catálogo apresentava-se de três maneiras: um livro impresso, e um website e aplicativo com o conteúdo digital do livro. Estes últimos deveriam posteriormente ser atualizado pelos fabricantes, com conteúdo moderado pela própria associação.</p><p>Fui responsável pelo projeto do aplicativo e website.</p>',
-            atributions: '<p>Fui o responsável pelo desenvolvimento de três partes do projeto: formulário de recebimento dos conteúdos dos fabricantes, o aplicativo, e o website.</p><p>Para o aplicativo, desenvolvi o wireframe, arquitetura de informação, definição de fluxo e layout das telas.</p><p>Para o website, desenvolvi toda a interface visual, e programei o front-end.</p>',
-            decisions: '<p>Seguindo a divisão das três partes nas quais atuei:</p><ul><li>Para o formulário de cadastro, desenvolvemos um website em Vue.JS, ligado ao Firebase como banco de dados da aplicação. Dessa forma, pude ter completa autonomia para o desenvolvimento total da ferramenta, dado que para esse momento ainda não possíamos desenvolvedor backend alocado. A escolha pelo Vue.JS se deu pela sua rapidez de implementar uma SPA e boa integração com o Firebase. Fizemos uma SPA com autenticação para cada fabricante, e formulário que integrava-se com o Firebase para os dados e imagens de cada produto.</li><li>Para o aplicativo, desenvolvemos seu conceito após a análise do material que teríamos disponível para o livro, e trabalhamos com a ideia de conteúdos </li>'
-        },
-        {
-            id: 10,
-            year: '2014',
-            title: 'Hotsite - Sistema Solar',
-            seoname: 'sistema-solar',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'website',
-            urllabel: 'blucher.com.br/sistema-solar',
-            date: '',
-            url: 'https://blucher.com.br/sistema-solar',
-            color: '#000 ',
-            excerpt: 'front-end (html, css e js)'      
-        },
-        {
-            id: 11,
-            year: '2014',
-            title: 'Materialize',
-            seoname: 'materialize',
-            type: 'project',
-            context: 'minimodesign',
-            subtitle: 'website',
-            urllabel: 'materialize.fau.usp.br',
-            date: '',
-            url: 'http://materialize.fau.usp.br/',
-            color: '#e39a00 ',
-            excerpt: 'auxílio no front-end e back-end na fase final'      
         },
         {
             id: 12,
@@ -289,6 +219,111 @@ const store = new Vuex.Store({
             color: '#151515 ',
             excerpt: '',
             content: '<p>O trabalho procura introduzir uma epistemologia do design de cunho fenomenológico. Calcado especificamente nos textos e pensamentos de Edmund Husserl e sua fenomenologia, esclarecemos alguns conceitos usados no trabalho, especificamente de mundo de vividos, e de atitudes frente ao fenômeno. Com isso, conduzimos uma análise da ideia de projeto propondo uma ontologia fenomenológica ao projetar como uma atitude frente ao mundo, e que deriva diretamente da atitude natural, extrapolando suas  características  realistas.  Introduz  ainda  a  possibilidade de desmembramento da análise por via de uma teoria da ação, que auxiliaria entender parte das consequências de tal atitude projetual para a área do design.</p><br><br>'
+        },
+        {
+            id: 18,
+            year: '2024',
+            title: 'DESIGN PARA ESTATAIS: o exemplo do escritório GAPP',
+            seoname: 'design-para-estatais-gapp',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'periodicos.ufam.edu.br',
+            date: 'dezembro de 2024',
+            url: 'https://periodicos.ufam.edu.br/index.php/cadernoppgd/article/view/16445',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado no Caderno Científico do PPG Design, em coautoria com Marcos da Costa Braga. O trabalho examina a atuação de designers em empresas estatais, focando no escritório GAPP e seus projetos desenvolvidos para o Metrô de São Paulo, Fapesa e Copene. A pesquisa explora como designers desempenharam papéis importantes nas políticas de industrialização do país durante as décadas de 1960 a 1980, contribuindo para a consolidação da identidade visual de empresas públicas brasileiras.</p><br><br>'
+        },
+        {
+            id: 19,
+            year: '2023',
+            title: 'A abordagem da Micro-História e a pesquisa em História do Design no Brasil',
+            seoname: 'abordagem-micro-historia-design-brasil',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'eed.emnuvens.com.br',
+            date: '2023',
+            url: 'https://eed.emnuvens.com.br/design/article/view/1714',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Estudos em Design (v. 31, n. 2, p. 128-140, 2023), em coautoria com Marcos da Costa Braga. O trabalho discute como a abordagem da Micro-História pode contribuir para consolidar a pesquisa em História do Design no Brasil. O artigo analisa metodologias historiográficas e suas aplicações no campo do design, apresentando reflexões sobre como narrativas localizadas e estudos de caso detalhados podem enriquecer a compreensão da história do design brasileiro.</p><br><br>'
+        },
+        {
+            id: 20,
+            year: '2022',
+            title: 'Sérgio Kehl: pioneiro no ensino de ergonomia e de projeto do produto no Brasil',
+            seoname: 'sergio-kehl-pioneiro-ergonomia',
+            type: 'article',
+            context: 'ped',
+            subtitle: 'artigo científico',
+            urllabel: 'proceedings.blucher.com.br',
+            date: '2022',
+            url: 'https://www.proceedings.blucher.com.br/article-details/37969',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado nos Anais do 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (p. 1414-1434, DOI 10.5151/ped2022-9887423), em coautoria com Marcos da Costa Braga. O trabalho discute Sérgio Augusto Penna Kehl, engenheiro e professor da Escola Politécnica da USP, que foi o primeiro a lecionar Ergonomia e a primeira disciplina de desenvolvimento de produto no Brasil, no início dos anos 1960. O artigo visa contribuir para o resgate da memória do design brasileiro, apresentando suas ideias sobre Criatividade e Ergonomia.</p><br><br>'
+        },
+        {
+            id: 21,
+            year: '2022',
+            title: 'Currículos mínimos de Desenho Industrial e os reflexos do campo brasileiro de design de 1960 a 1989',
+            seoname: 'curriculos-minimos-desenho-industrial-1960-1989',
+            type: 'article',
+            context: 'ped',
+            subtitle: 'artigo científico',
+            urllabel: 'proceedings.blucher.com.br',
+            date: '2022',
+            url: 'https://www.proceedings.blucher.com.br/article-details/37923',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado nos Anais do 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design pela Blucher Design Proceedings. O trabalho analisa os currículos mínimos de Desenho Industrial estabelecidos entre 1960 e 1989 e seus reflexos no desenvolvimento do campo do design brasileiro. A pesquisa examina como essas diretrizes curriculares influenciaram a formação de designers e a consolidação da profissão no Brasil durante esse período de institucionalização da área.</p><br><br>'
+        },
+        {
+            id: 22,
+            year: '2020',
+            title: 'Assessing the impact of design on the development of digital services',
+            seoname: 'impact-design-digital-services',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'scielo.br',
+            date: '2020',
+            url: 'https://www.scielo.br/j/gp/a/HBc34XmkZ7gXSYt5tF8hpWj/?lang=en',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Gestão & Produção (v. 27, n. 4, e4135, 2020), em coautoria com Gabriel Santos Garbulho e André Leme Fleury. O trabalho avalia o impacto do design no desenvolvimento de serviços digitais, apresentando uma pesquisa que analisa como práticas de design contribuem para a criação e melhoria de produtos e serviços digitais. O estudo oferece insights sobre a importância do design thinking e metodologias centradas no usuário no contexto de transformação digital.</p><br><br>'
+        },
+        {
+            id: 23,
+            year: '2019',
+            title: 'A proposta de Currículo Mínimo de Desenho Industrial e Programação Visual de 1979: ideias do percurso de sua constituição',
+            seoname: 'curriculo-minimo-1979',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'eed.emnuvens.com.br',
+            date: '2019',
+            url: 'https://eed.emnuvens.com.br/design',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Estudos em Design (Online), v. 26, p. 72-86, 2019, em coautoria com Marcos da Costa Braga. O trabalho investiga a proposta de Currículo Mínimo de Desenho Industrial e Programação Visual de 1979, analisando as ideias que permearam o percurso de sua constituição. A pesquisa examina documentos históricos e contextos políticos e educacionais que influenciaram a criação desta diretriz curricular, contribuindo para a compreensão da evolução do ensino de design no Brasil.</p><br><br>'
+        },
+        {
+            id: 24,
+            year: '2018',
+            title: 'Os Currículos Mínimos de Desenho Industrial de 1969 e 1987: origens, constituição, história e diálogo no campo do Design',
+            seoname: 'curriculos-minimos-livro-2018',
+            type: 'article',
+            context: 'livro',
+            subtitle: 'livro',
+            urllabel: 'blucher.com.br',
+            date: '2018',
+            url: 'https://www.blucher.com.br/livro/detalhes/os-curriculos-minimos-de-desenho-industrial-de-1969-e-1987-1459',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Livro publicado pela Editora Blucher em 2018, resultado da dissertação de mestrado defendida na FAU USP. A obra analisa os Currículos Mínimos de Desenho Industrial estabelecidos em 1969 e 1987, investigando suas origens, constituição e impactos no campo do design brasileiro. O trabalho apresenta uma pesquisa histórica aprofundada sobre o desenvolvimento do ensino de design no Brasil, examinando documentos, debates e contextos que moldaram a formação de designers no país durante o período de institucionalização da profissão.</p><br><br>'
         },
     ]
   },
