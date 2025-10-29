@@ -38,51 +38,38 @@ const store = new Vuex.Store({
     	},
     	{
     		year: '2017',
-    		description: 'Atuo atualmente como freelancer para projetos web (interface, front-end e desenvolvimento), e tenho me aprofundado no desenvolvimento front-end, especialmente com Vue.js, e alguma aproximação com Angular2.'
+    		description: 'Co-organizo com Marcos da Costa Braga o livro "Histórias do Design no Brasil III" (Annablume). Publico capítulo sobre o Currículo Mínimo de 1969 no mesmo volume. Continuo pesquisa de mestrado na FAU USP.'
     	},
     	{
     		year: '2016',
-    		description: 'Iniciei o mestrado em design na FAU USP, com pesquisa sobre os Currículos Mínimos de Desenho Industrial de 1969 e 1979.'
+    		description: 'Inicio mestrado em design na FAU USP, com pesquisa sobre os Currículos Mínimos de Desenho Industrial de 1969 e 1987. Publico artigo na revista Trágica sobre fenomenologia do design e artigo na Estudos em Design sobre o I Seminário de Ensino de Desenho Industrial.'
     	},
     	{
     		year: '2015',
-    		description: 'Ainda atuando como designer na Editora Edgard Blucher, desenvolvo projetos no papel de desenvolvedor responsável na área de Novos Negócios Digitais. Nesse momento, aproximo-me também do desenvolvimento Full Stack por meio do framework Meteor.'
-    	}, 
+    		description: 'Publico entrevistas com Marcos da Costa Braga e Charles Bezerra, explorando temas de história do design e inovação. Continuo pesquisas na área de história do design brasileiro.'
+    	},
     	{
     		year: '2014',
-    		description: ''
-    	}, 
+    		description: 'Publico três artigos científicos nos anais do P&D Design: sobre hipoícones e semiótica peirceana aplicados a marcas gráficas, metodologia de design em interação com artesanato de tradição, e análise do discurso de brasilidade.'
+    	},
         {
             year: '2013',
-            description: 'Sou contratado em Maio/2013 pela Editora Edgard Blucher como designer desenvolvedor responsável na área de Novos Negócios Digitais. Deixo, assim, a sociedade na Mínimo Design, onde estive desde 2009.'
-        }, 
+            description: 'Publico ensaio "A esfera pública digital" explorando conceitos de Habermas sobre esfera pública e dialética.'
+        },
         {
             year: '2012',
-            description: 'De 2009 a 2012, estive em sociedade com Gabriel Garbulho, formando uma empresa de design focada em desenvolvimento web, onde desenvolvemos mais de 50 sites ao longo de 4 anos. Também no ano de 2012, me formo como bacharel em design pela FAU USP.'
-        }, 
+            description: 'Concluo graduação em Design pela FAU USP. Desenvolvo interesse crescente pela história do design brasileiro e metodologias de pesquisa.'
+        },
         {
             year: '2011',
-            description: ''
-        }, 
+            description: 'Durante graduação, participo de projeto com artesãs de Santarém envolvendo as Cuias de Santarém, que resultará em publicação futura.'
+        },
         {
             year: '2010',
-            description: ''
+            description: 'Graduação em Design na FAU USP. Participo do prêmio Design do Museu da Casa Brasileira, acompanhando debates sobre design gráfico brasileiro.'
         }
     ],
     portfolio: [
-    	{
-    		id: 1,
-    		year: '2015',
-    		title: 'Editora Blucher',
-            seoname: 'editora-blucher',
-    		type: 'project',
-            context: 'blucher',
-    		subtitle: 'Ecommerce',
-    		urllabel: 'www.blucher.com.br',
-            url: 'https://www.blucher.com.br/',
-    		color: '#0c487a',
-    		excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'    		
-    	},
     	{
     		id: 2,
     		year: '2016',
@@ -99,19 +86,6 @@ const store = new Vuex.Store({
             content: '<p>Já desde os tempos da graduação acompanho o prêmio Design do Museu da Casa Brasileira — MCB. Eventualmente participei do concurso do cartaz, mas independente disso, sempre discuti com amigos os resultados deste, ou da seleção dos produtos, da expografia etc. O fato é que, depois desses 10 anos acompanhando o prêmio, escrevo esse curto texto como um elogio ao MCB que, enfim, pisa em terras do maior interesse à história e debates do design gráfico.</p><img src="https://cdn-images-1.medium.com/max/800/1*YR6FgPv7g5rZEG140vKT4A.png"><p class="image-subtitle">cartazes escolhidos em 2014 e 2015, com juri coordenado por gustavo piqueira. fonte: site do mcb</p>'   		
     	},
     	{
-    		id: 3,
-    		year: '2015',
-    		title: 'Estante do Designer',
-            seoname: 'estante-do-designer',
-    		type: 'project',
-            context: 'blucher',
-    		subtitle: 'rede social de nicho',
-    		urllabel: 'descontinuado',
-            url: '',
-    		color: '#151515 ',
-    		excerpt: 'layout, framework fullstack meteor, front-end (html, css, jquery) e coordenação do desenvolvimento'    		
-    	},
-    	{
     		id: 5,
     		year: '2015',
     		title: 'Entrevista: Marcos da Costa Braga',
@@ -126,19 +100,6 @@ const store = new Vuex.Store({
     		excerpt: '',
             content: '<p>Esse texto é resultado de alguns meses de e-mails trocados com o Prof. Marcos da Costa Braga, professor doutor no curso de Design da Faculdade de Arquitetura e Urbanismo da USP, e da pós-graduação da mesma instituição. Abaixo, o professor comenta sobre a pesquisa em História do Design no Brasil, sobre conceitos tais como História Social e Micro-História, entre outros pontos.</p><p>A entrevista foi realizada por e-mail entre os meses de Janeiro e Agosto de 2015, e faz parte de uma série de entrevistas com diversas pessoas, a serem publicadas ao longo das próximas semanas e meses.</p><hr><p><em><strong>Eduardo Ferreira —</strong> Professor Marcos Braga, em um texto recente (2014) publicado no Caderno de Estudos Avançados em Design, o senhor comenta sobre a disciplina que ministra na pós-graduação da FAU USP, e faz uma introdução sobre seus pressupostos teóricos e epistemológicos dos estudos Históricos do Design, comentando sobre a Nova História e a História Social como importantes fundamentos à disciplina. O senhor poderia falar um pouco sobre a História do Design na historiografia, digamos, “tradicional” dos estudos históricos e sua relação com essas correntes? E quando acredita que passou a ser considerada uma área de pesquisas históricas, e o que levou isso a acontecer?</em></p><br><br>'    		
     	},
-        {
-            id: 4,
-            year: '2015',
-            title: 'Mercado Editorial.org',
-            seoname: 'mercado-editorial',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'sistema online',
-            urllabel: 'mercadoeditorial.org',
-            url: 'https://www.mercadoeditorial.org',
-            color: '#39b54a ',
-            excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'         
-        },
         {
             id: 6,
             year: '2013',
@@ -168,65 +129,6 @@ const store = new Vuex.Store({
             color: '#151515 ',
             excerpt: '',
             content: '<p>Esta entrevista resulta de diversos e-mails trocados com Charles Bezerra no primeiro semestre de 2015, e nasceu a partir do contato que tive com ele por causa de sua empresa, Swarms. Por causa de uma curta conversa de almoço e uma menção ao PhD de Charles, questões me surgiram, e formaram o que abre a conversa, redigida a seguir. Tocam-se em pontos como a constituição, possibilidade e caminhos para a inovação.</p><p>Tendo acontecido de 09 de Janeiro até 24 de Julho, a entrevista e faz parte de uma série de entrevistas com diversas pessoas, a serem publicadas ao longo das próximas semanas e meses.</p><hr><p><em><strong>Eduardo Ferreira —</strong> Charles, no seu blog, livros ou em alguns textos, surgem temas muito interessantes com alguma frequência, como a Teoria do Caos, Complexidade, inclusive diretamente trabalhadas em sua dissertação do PhD (entitulada Evolutionary Structural Planning), e mais recentemente comentou sobre Física Quântica. De maneira esquemática (dada a profundidade de tais temas), de que maneira tal repertório emerge em seus trabalhos relacionados a inovação?<em></p><br><br>'          
-        },
-        {
-            id: 8,
-            year: '2014',
-            title: 'Blucher Proceedings',
-            seoname: 'blucher-proceedings',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'repositório de artigos',
-            urllabel: 'proceedings.blucher.com.br',
-            date: '',
-            url: 'http://procedings.blucher.com.br',
-            color: '#0c487a ',
-            excerpt: 'design, front-end (html, css, jquery) e coordenação do  desenvolvimento (php em  codeigniter, mysql)'      
-        },
-        {
-            id: 9,
-            year: '2017',
-            title: 'Tintas de Qualidade',
-            seoname: 'tintas-de-qualidade',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'website',
-            urllabel: 'tintasimobiliarias.com.br',
-            date: '',
-            url: 'http://tintasimobiliarias.com.br',
-            color: '#116a99 ',
-            excerpt: 'design, front-end (SPA com Vue.js, Vue Router e Vuex) e coordenação do  desenvolvimento (api em codeigniter, mysql)',
-            scope: '<p>O projeto tratou da produção do catálogo de tintas dos associados da ABRAFATI. Tal catálogo apresentava-se de três maneiras: um livro impresso, e um website e aplicativo com o conteúdo digital do livro. Estes últimos deveriam posteriormente ser atualizado pelos fabricantes, com conteúdo moderado pela própria associação.</p><p>Fui responsável pelo projeto do aplicativo e website.</p>',
-            atributions: '<p>Fui o responsável pelo desenvolvimento de três partes do projeto: formulário de recebimento dos conteúdos dos fabricantes, o aplicativo, e o website.</p><p>Para o aplicativo, desenvolvi o wireframe, arquitetura de informação, definição de fluxo e layout das telas.</p><p>Para o website, desenvolvi toda a interface visual, e programei o front-end.</p>',
-            decisions: '<p>Seguindo a divisão das três partes nas quais atuei:</p><ul><li>Para o formulário de cadastro, desenvolvemos um website em Vue.JS, ligado ao Firebase como banco de dados da aplicação. Dessa forma, pude ter completa autonomia para o desenvolvimento total da ferramenta, dado que para esse momento ainda não possíamos desenvolvedor backend alocado. A escolha pelo Vue.JS se deu pela sua rapidez de implementar uma SPA e boa integração com o Firebase. Fizemos uma SPA com autenticação para cada fabricante, e formulário que integrava-se com o Firebase para os dados e imagens de cada produto.</li><li>Para o aplicativo, desenvolvemos seu conceito após a análise do material que teríamos disponível para o livro, e trabalhamos com a ideia de conteúdos </li>'
-        },
-        {
-            id: 10,
-            year: '2014',
-            title: 'Hotsite - Sistema Solar',
-            seoname: 'sistema-solar',
-            type: 'project',
-            context: 'blucher',
-            subtitle: 'website',
-            urllabel: 'blucher.com.br/sistema-solar',
-            date: '',
-            url: 'https://blucher.com.br/sistema-solar',
-            color: '#000 ',
-            excerpt: 'front-end (html, css e js)'      
-        },
-        {
-            id: 11,
-            year: '2014',
-            title: 'Materialize',
-            seoname: 'materialize',
-            type: 'project',
-            context: 'minimodesign',
-            subtitle: 'website',
-            urllabel: 'materialize.fau.usp.br',
-            date: '',
-            url: 'http://materialize.fau.usp.br/',
-            color: '#e39a00 ',
-            excerpt: 'auxílio no front-end e back-end na fase final'      
         },
         {
             id: 12,
