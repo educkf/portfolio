@@ -9,9 +9,37 @@ const store = new Vuex.Store({
     scrollposition: '',
     years: [
     	{
+    		year: '2024',
+    		description: 'Concluo o doutorado em História Social do Design pela FAU USP, focando na história do ensino de design no Brasil. Continuo atuando como desenvolvedor front-end e publicando pesquisas acadêmicas.'
+    	},
+    	{
+    		year: '2023',
+    		description: ''
+    	},
+    	{
+    		year: '2022',
+    		description: ''
+    	},
+    	{
+    		year: '2021',
+    		description: ''
+    	},
+    	{
+    		year: '2020',
+    		description: 'Inicio o doutorado em História Social do Design pela FAU USP (2020-2024).'
+    	},
+    	{
+    		year: '2019',
+    		description: ''
+    	},
+    	{
+    		year: '2018',
+    		description: 'Defendo a dissertação de mestrado e publico o livro "Os Currículos Mínimos de Desenho Industrial de 1969 e 1987" pela Editora Blucher.'
+    	},
+    	{
     		year: '2017',
     		description: 'Atuo atualmente como freelancer para projetos web (interface, front-end e desenvolvimento), e tenho me aprofundado no desenvolvimento front-end, especialmente com Vue.js, e alguma aproximação com Angular2.'
-    	}, 
+    	},
     	{
     		year: '2016',
     		description: 'Iniciei o mestrado em design na FAU USP, com pesquisa sobre os Currículos Mínimos de Desenho Industrial de 1969 e 1979.'
@@ -289,6 +317,111 @@ const store = new Vuex.Store({
             color: '#151515 ',
             excerpt: '',
             content: '<p>O trabalho procura introduzir uma epistemologia do design de cunho fenomenológico. Calcado especificamente nos textos e pensamentos de Edmund Husserl e sua fenomenologia, esclarecemos alguns conceitos usados no trabalho, especificamente de mundo de vividos, e de atitudes frente ao fenômeno. Com isso, conduzimos uma análise da ideia de projeto propondo uma ontologia fenomenológica ao projetar como uma atitude frente ao mundo, e que deriva diretamente da atitude natural, extrapolando suas  características  realistas.  Introduz  ainda  a  possibilidade de desmembramento da análise por via de uma teoria da ação, que auxiliaria entender parte das consequências de tal atitude projetual para a área do design.</p><br><br>'
+        },
+        {
+            id: 18,
+            year: '2024',
+            title: 'DESIGN PARA ESTATAIS: o exemplo do escritório GAPP',
+            seoname: 'design-para-estatais-gapp',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'periodicos.ufam.edu.br',
+            date: 'dezembro de 2024',
+            url: 'https://periodicos.ufam.edu.br/index.php/cadernoppgd/article/view/16445',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado no Caderno Científico do PPG Design, em coautoria com Marcos da Costa Braga. O trabalho examina a atuação de designers em empresas estatais, focando no escritório GAPP e seus projetos desenvolvidos para o Metrô de São Paulo, Fapesa e Copene. A pesquisa explora como designers desempenharam papéis importantes nas políticas de industrialização do país durante as décadas de 1960 a 1980, contribuindo para a consolidação da identidade visual de empresas públicas brasileiras.</p><br><br>'
+        },
+        {
+            id: 19,
+            year: '2023',
+            title: 'A abordagem da Micro-História e a pesquisa em História do Design no Brasil',
+            seoname: 'abordagem-micro-historia-design-brasil',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'eed.emnuvens.com.br',
+            date: '2023',
+            url: 'https://eed.emnuvens.com.br/design/article/view/1714',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Estudos em Design (v. 31, n. 2, p. 128-140, 2023), em coautoria com Marcos da Costa Braga. O trabalho discute como a abordagem da Micro-História pode contribuir para consolidar a pesquisa em História do Design no Brasil. O artigo analisa metodologias historiográficas e suas aplicações no campo do design, apresentando reflexões sobre como narrativas localizadas e estudos de caso detalhados podem enriquecer a compreensão da história do design brasileiro.</p><br><br>'
+        },
+        {
+            id: 20,
+            year: '2022',
+            title: 'Sérgio Kehl: pioneiro no ensino de ergonomia e de projeto do produto no Brasil',
+            seoname: 'sergio-kehl-pioneiro-ergonomia',
+            type: 'article',
+            context: 'ped',
+            subtitle: 'artigo científico',
+            urllabel: 'proceedings.blucher.com.br',
+            date: '2022',
+            url: 'https://www.proceedings.blucher.com.br/article-details/37969',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado nos Anais do 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design (p. 1414-1434, DOI 10.5151/ped2022-9887423), em coautoria com Marcos da Costa Braga. O trabalho discute Sérgio Augusto Penna Kehl, engenheiro e professor da Escola Politécnica da USP, que foi o primeiro a lecionar Ergonomia e a primeira disciplina de desenvolvimento de produto no Brasil, no início dos anos 1960. O artigo visa contribuir para o resgate da memória do design brasileiro, apresentando suas ideias sobre Criatividade e Ergonomia.</p><br><br>'
+        },
+        {
+            id: 21,
+            year: '2022',
+            title: 'Currículos mínimos de Desenho Industrial e os reflexos do campo brasileiro de design de 1960 a 1989',
+            seoname: 'curriculos-minimos-desenho-industrial-1960-1989',
+            type: 'article',
+            context: 'ped',
+            subtitle: 'artigo científico',
+            urllabel: 'proceedings.blucher.com.br',
+            date: '2022',
+            url: 'https://www.proceedings.blucher.com.br/article-details/37923',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado nos Anais do 14º Congresso Brasileiro de Pesquisa e Desenvolvimento em Design pela Blucher Design Proceedings. O trabalho analisa os currículos mínimos de Desenho Industrial estabelecidos entre 1960 e 1989 e seus reflexos no desenvolvimento do campo do design brasileiro. A pesquisa examina como essas diretrizes curriculares influenciaram a formação de designers e a consolidação da profissão no Brasil durante esse período de institucionalização da área.</p><br><br>'
+        },
+        {
+            id: 22,
+            year: '2020',
+            title: 'Assessing the impact of design on the development of digital services',
+            seoname: 'impact-design-digital-services',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'scielo.br',
+            date: '2020',
+            url: 'https://www.scielo.br/j/gp/a/HBc34XmkZ7gXSYt5tF8hpWj/?lang=en',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Gestão & Produção (v. 27, n. 4, e4135, 2020), em coautoria com Gabriel Santos Garbulho e André Leme Fleury. O trabalho avalia o impacto do design no desenvolvimento de serviços digitais, apresentando uma pesquisa que analisa como práticas de design contribuem para a criação e melhoria de produtos e serviços digitais. O estudo oferece insights sobre a importância do design thinking e metodologias centradas no usuário no contexto de transformação digital.</p><br><br>'
+        },
+        {
+            id: 23,
+            year: '2019',
+            title: 'A proposta de Currículo Mínimo de Desenho Industrial e Programação Visual de 1979: ideias do percurso de sua constituição',
+            seoname: 'curriculo-minimo-1979',
+            type: 'article',
+            context: 'artigo',
+            subtitle: 'artigo científico',
+            urllabel: 'eed.emnuvens.com.br',
+            date: '2019',
+            url: 'https://eed.emnuvens.com.br/design',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Artigo publicado na revista Estudos em Design (Online), v. 26, p. 72-86, 2019, em coautoria com Marcos da Costa Braga. O trabalho investiga a proposta de Currículo Mínimo de Desenho Industrial e Programação Visual de 1979, analisando as ideias que permearam o percurso de sua constituição. A pesquisa examina documentos históricos e contextos políticos e educacionais que influenciaram a criação desta diretriz curricular, contribuindo para a compreensão da evolução do ensino de design no Brasil.</p><br><br>'
+        },
+        {
+            id: 24,
+            year: '2018',
+            title: 'Os Currículos Mínimos de Desenho Industrial de 1969 e 1987: origens, constituição, história e diálogo no campo do Design',
+            seoname: 'curriculos-minimos-livro-2018',
+            type: 'article',
+            context: 'livro',
+            subtitle: 'livro',
+            urllabel: 'blucher.com.br',
+            date: '2018',
+            url: 'https://www.blucher.com.br/livro/detalhes/os-curriculos-minimos-de-desenho-industrial-de-1969-e-1987-1459',
+            color: '#151515 ',
+            excerpt: '',
+            content: '<p>Livro publicado pela Editora Blucher em 2018, resultado da dissertação de mestrado defendida na FAU USP. A obra analisa os Currículos Mínimos de Desenho Industrial estabelecidos em 1969 e 1987, investigando suas origens, constituição e impactos no campo do design brasileiro. O trabalho apresenta uma pesquisa histórica aprofundada sobre o desenvolvimento do ensino de design no Brasil, examinando documentos, debates e contextos que moldaram a formação de designers no país durante o período de institucionalização da profissão.</p><br><br>'
         },
     ]
   },
